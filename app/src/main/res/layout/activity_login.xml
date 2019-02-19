@@ -20,6 +20,16 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
+    <TextView
+        android:id="@+id/applicationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="RewardFit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"

@@ -6,15 +6,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_workout"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_add_black_24dp"
             android:title="Add a Workout" />
         <item
             android:id="@+id/nav_rewards"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="Redeem Rewards" />
         <item
             android:id="@+id/nav_history"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_history_black_24dp"
             android:title="View History" />
         <item
             android:id="@+id/nav_settings"
@@ -28,6 +28,10 @@
                 android:id="@+id/nav_invite"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Invite A Friend" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
         </menu>
     </item>
 

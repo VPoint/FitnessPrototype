@@ -49,6 +49,6 @@
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@+id/reward_detail_container"
         app:layout_anchorGravity="top|end"
-        app:srcCompat="@drawable/ic_menu_share" />
+        app:srcCompat="@drawable/ic_shopping_cart_white_24dp" />
 
 </android.support.design.widget.CoordinatorLayout>

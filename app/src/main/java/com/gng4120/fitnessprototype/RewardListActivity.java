@@ -133,7 +133,7 @@ public class RewardListActivity extends AppCompatActivity {
             ViewHolder(View view) {
                 super(view);
                 mIdView = (TextView) view.findViewById(R.id.title);
-                mContentView = (TextView) view.findViewById(R.id.content);
+                mContentView = (TextView) view.findViewById(R.id.description);
             }
         }
     }

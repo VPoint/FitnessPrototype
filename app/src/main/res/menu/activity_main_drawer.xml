@@ -6,16 +6,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_workout"
-            android:icon="@drawable/ic_add_black_24dp"
-            android:title="Add a Workout" />
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="Connect Your Workout" />
         <item
             android:id="@+id/nav_rewards"
             android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="Redeem Rewards" />
-        <item
-            android:id="@+id/nav_history"
-            android:icon="@drawable/ic_history_black_24dp"
-            android:title="View History" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"

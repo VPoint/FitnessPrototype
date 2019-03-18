@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/reward_detail"
-    style="?android:attr/textAppearanceLarge"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:textIsSelectable="true"
-    tools:context=".RewardDetailFragment" />
+    android:orientation="vertical"
+
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".RewardDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:rating="3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="0"
+            android:gravity="right"
+            android:text="100 pts"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context=".RewardDetailFragment" />
+
+    <TextView
+        android:id="@+id/filler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="sdfjklsdjf lsdjflk slkdjf lsjflksd lkdsf lsdfj ldskf lkjf ldlk lk flsdfj lkdsjf lkdfj lsldkfj lkfjsdlfk l ls lkfdjs slkjd flk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/filler2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="sdfjklsdjf lsdjflk slkdjf lsjflksd lkdsf lsdfj ldskf lkjf ldlk lk flsdfj lkdsjf lkdfj lsldkfj lkfjsdlfk l ls lkfdjs slkjd flk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/filler3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="sdfjklsdjf lsdjflk slkdjf lsjflksd lkdsf lsdfj ldskf lkjf ldlk lk flsdfj lkdsjf lkdfj lsldkfj lkfjsdlfk l ls lkfdjs slkjd flk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/filler4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="sdfjklsdjf lsdjflk slkdjf lsjflksd lkdsf lsdfj ldskf lkjf ldlk lk flsdfj lkdsjf lkdfj lsldkfj lkfjsdlfk l ls lkfdjs slkjd flk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</LinearLayout>

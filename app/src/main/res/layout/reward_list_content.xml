@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/hero_card"
         android:layout_width="match_parent"
-        android:layout_height="108dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/banner_2" />
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
             android:layout_weight="1"
-            android:text="Title of Something"
+            android:text="Promotion for 40% off"
             android:textAppearance="?attr/textAppearanceListItem" />
 
         <TextView
@@ -37,14 +37,14 @@
 
     </LinearLayout>
 
-    <TextView
+    <!--<TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
         android:textAppearance="?attr/textAppearanceListItem"
         tools:text="lkdjfsldjf sfjsdklfj sdlkf slf sdjlkfsjd flkjf slf jsldkfj dkjfldkjflskf lsfj lskd jfls flsdf ls fsdkfj sdlfj slkf sdlk fdlfj slfk" />
-
+-->
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"

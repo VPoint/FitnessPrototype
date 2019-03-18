@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void onBindViewHolder(final SimpleItemRecyclerViewAdapter.ViewHolder holder, int position) {
             holder.mIdView.setText(mValues.get(position).content);
-            holder.mContentView.setText("jkjahdslkahd asdhkas ldklsa hdkjasdh lkash dlkasjdh lkas hdlkas dhaskljdh laskhdkashdlk hasdkljshlkdjashd askhd aslkjdhaslk dhsakjd hasljd hasjkldh aslkdh askjldh sdksahdklashdlkash dkl");
+            //holder.mContentView.setText("jkjahdslkahd asdhkas ldklsa hdkjasdh lkash dlkasjdh lkas hdlkas dhaskljdh laskhdkashdlk hasdkljshlkdjashd askhd aslkjdhaslk dhsakjd hasljd hasjkldh aslkdh askjldh sdksahdklashdlkash dkl");
 
             holder.itemView.setTag(mValues.get(position));
             holder.itemView.setOnClickListener(mOnClickListener);

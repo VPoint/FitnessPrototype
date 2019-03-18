@@ -39,8 +39,7 @@
         android:id="@+id/points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@android:color/background_light"
-        tools:text="100 000 000 pts" />
+        android:text="100 000 000 pts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 </LinearLayout>
